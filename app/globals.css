@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Parisienne&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-sm sm:text-4xl;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
