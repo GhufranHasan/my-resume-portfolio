@@ -2,36 +2,34 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="flex items-center max-w-4xl mx-auto leading-8 text-justify" id="about">
+    <div
+      className="flex items-center max-w-4xl mx-auto leading-8 text-justify"
+      id="about"
+    >
       <div className="px-10 mt-10">
         <h1 className="text-center text-4xl text-white mb-10 ">About Me</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
-          obcaecati rerum? Atque nam, eum quidem velit nisi, corporis iusto
-          aspernatur veritatis dolores omnis cumque porro fugiat delectus ullam
-          tempore minima? Id qui doloremque architecto eaque! Ad, illo enim!
-          Vitae officia cumque dolore veritatis error voluptatem cupiditate,
-          ratione ea in placeat quaerat veniam. Repellat esse accusantium,
-          quisquam labore mollitia eius temporibus harum possimus sapiente,
-          atque non cupiditate pariatur sed soluta exercitationem perferendis
-          beatae animi adipisci! Dolorum quidem mollitia, culpa qui fugiat est
-          quis itaque, cum debitis distinctio adipisci quasi nisi. Quidem
-          necessitatibus voluptate expedita beatae repellendus magnam cum at
-          odio numquam?
+          As a highly skilled software engineer and web developer, I am ready to
+          bring my expertise in Angular, TypeScript, and WordPress, along with
+          my passion for technology and research in Web 3 and NextJS, to your
+          next project. With 2 years of experience delivering innovative and
+          visually appealing web applications and software solutions, I am
+          confident in my ability to bring value to your organization.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
-          obcaecati rerum? Atque nam, eum quidem velit nisi, corporis iusto
-          aspernatur veritatis dolores omnis cumque porro fugiat delectus ullam
-          tempore minima? Id qui doloremque architecto eaque! Ad, illo enim!
-          Vitae officia cumque dolore veritatis error voluptatem cupiditate,
-          ratione ea in placeat quaerat veniam. Repellat esse accusantium,
-          quisquam labore mollitia eius temporibus harum possimus sapiente,
-          atque non cupiditate pariatur sed soluta exercitationem perferendis
-          beatae animi adipisci! Dolorum quidem mollitia, culpa qui fugiat est
-          quis itaque, cum debitis distinctio adipisci quasi nisi. Quidem
-          necessitatibus voluptate expedita beatae repellendus magnam cum at
-          odio numquam?
+          I have a proven track record of delivering projects on time and within
+          budget, and am known for my ability to effectively collaborate with
+          cross-functional teams and communicate technical solutions. Whether
+          you need a responsive website, an efficient software solution, or a
+          combination of both, I am here to bring your vision to life.
+          Experience
+        </p>
+        <p>
+          Besides coding, I also have a keen interest in research projects. In
+          my free time, you can find me to spend time on online projects. I
+          value continuous learning and personal growth, and I am excited about
+          the opportunity to contribute to meaningful projects and make a
+          positive impact.
         </p>
       </div>
     </div>
