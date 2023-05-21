@@ -31,14 +31,14 @@ export const HomeHero = () => {
       {/* left ends here */}
       {/* right starts here */}
       <div className="">
-        {/* <Image src={} alt="my image" /> */}
-        <img
+        <Image src={'/my_pic.png'} alt="My solo image" width={800} height={800} className="md:w-full w-1/2 mx-auto" />
+        {/* <img
           src="my_pic.png"
           alt="My picture solo"
           width={800}
           height={800}
           className="md:w-full w-1/2 mx-auto"
-        />
+        /> */}
       </div>
       {/* right ends here */}
     </section>

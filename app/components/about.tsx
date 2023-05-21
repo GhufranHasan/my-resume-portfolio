@@ -31,6 +31,24 @@ export const About = () => {
           the opportunity to contribute to meaningful projects and make a
           positive impact.
         </p>
+        <p>
+          I have completed my graduation and post graduation in Software
+          Engineering and I have interested in Web Design projects. But I also
+          dream to become a full stack developer very soon. My facourite
+          subjects which are listed below:
+          <ul className="list-disc list-inside pl-4">
+            <li>Advance Sofware Requirement Engineering</li>
+            <li>Advance Sofware Project Management</li>
+            <li>Agile Methodologies</li>
+            <li>Software and System Quality</li>
+            <li>Development and Operations in Software Engneering</li>
+          </ul>
+        </p>
+        <p>
+          I have worked with various companies in Pakistan, i.e. United Bank
+          Limited, Ubank and Systems Ltd. And now I am willing to work with the
+          big companies in Pakistan.
+        </p>
       </div>
     </div>
   );

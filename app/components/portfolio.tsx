@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 export default function Portfolio() {
   return (
@@ -13,7 +14,7 @@ export default function Portfolio() {
             {/* card 1 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -28,7 +29,7 @@ export default function Portfolio() {
             {/* card 2 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -43,7 +44,7 @@ export default function Portfolio() {
             {/* card 3 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -58,7 +59,7 @@ export default function Portfolio() {
             {/* card 4 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -73,7 +74,7 @@ export default function Portfolio() {
             {/* card 5 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -88,7 +89,7 @@ export default function Portfolio() {
             {/* card 6 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <img src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' />
+                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
