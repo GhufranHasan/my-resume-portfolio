@@ -32,7 +32,7 @@ export const HomeHero = () => {
       {/* right starts here */}
       <div className="">
         <Image src={'/my_pic.png'} alt="My solo image" width={800} height={800} className="md:w-full w-1/2 mx-auto" />
-        {/* <img
+        {/* <Image
           src="my_pic.png"
           alt="My picture solo"
           width={800}
