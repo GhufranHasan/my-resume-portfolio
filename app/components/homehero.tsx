@@ -17,7 +17,7 @@ export const HomeHero = () => {
           Hi there! I am Ghufran Hasan, a passionate full stack developer with
           experience in building web applications. I specialize in JavaScript,
           Typescript, Angular, React, and Next.js. I love solving complex
-          problems and creating innovative solutions. Let&apos;s work together to
+          problems and creating innovative solutions and work together to
           bring your ideas to life!
         </p>
         <button className="group flex items-center bg-gradient-to-r from-yellow-600 to-orange-500 hover:from-black hover:to-amber-950 py-2 px-4 rounded-lg">
