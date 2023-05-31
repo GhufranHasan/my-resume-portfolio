@@ -14,8 +14,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      logo: ['Ballet', 'cursive'],
-      menu: ['Parisienne', 'cursive'],
+      logo: ['Lobster', 'cursive'],
+      menu: ['Hind', 'sans-serif'],
+      content: ['Barlow Condensed', 'sans-serif']
     },
   },
   plugins: [],

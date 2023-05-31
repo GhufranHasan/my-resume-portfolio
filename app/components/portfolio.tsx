@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='font-content'>
       <div className='items-center max-w-7xl mx-auto leading-8 mb-10' id='portfolio'>
           <div className='px-10 mt-32 mx-auto'>
             <div className='text-center'>

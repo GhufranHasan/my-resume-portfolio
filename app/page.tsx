@@ -6,7 +6,6 @@ import { About } from "./components/about";
 import { Skills } from "./components/skills";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
-import BackMusic from "./components/backmusic";
 import SocialIcons from "./components/socialIcons";
 
 
@@ -15,7 +14,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      {/* <BackMusic /> */}
       <SocialIcons />
       <Header />
       <HomeHero />

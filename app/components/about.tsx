@@ -3,7 +3,7 @@ import React from "react";
 export const About = () => {
   return (
     <div
-      className="flex items-center max-w-4xl mx-auto leading-8 text-justify"
+      className="flex items-center max-w-4xl mx-auto leading-8 font-content"
       id="about"
     >
       <div className="px-10 mt-10">
@@ -32,18 +32,17 @@ export const About = () => {
           positive impact.
         </p>
         <p>
-          I have completed my graduation and post graduation in Software
-          Engineering and I have interested in Web Design projects. But I also
-          dream to become a full stack developer very soon. My facourite
-          subjects which are listed below:
-          <ul className="list-disc list-inside pl-4">
-            <li>Advance Sofware Requirement Engineering</li>
-            <li>Advance Sofware Project Management</li>
-            <li>Agile Methodologies</li>
-            <li>Software and System Quality</li>
-            <li>Development and Operations in Software Engneering</li>
-          </ul>
+          I have completed my graduation and post-graduation in Software Engineering,
+          and I have an interest in Web Design projects. But I also dream to become a
+          full stack developer very soon. My favorite subjects which are listed below:
         </p>
+        <ul className="list-disc list-inside pl-4">
+          <li>Advance Software Requirement Engineering</li>
+          <li>Advance Software Project Management</li>
+          <li>Agile Methodologies</li>
+          <li>Software and System Quality</li>
+          <li>Development and Operations in Software Engineering</li>
+        </ul>
         <p>
           I have worked with various companies in Pakistan, i.e. United Bank
           Limited, Ubank and Systems Ltd. And now I am willing to work with the

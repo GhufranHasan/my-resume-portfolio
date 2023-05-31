@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div>
+    <div className='font-content'>
       <div className='items-center max-w-7xl mx-auto leading-8 mb-10' id='contact'>
         <div className='px-10 mt-32 mx-auto'>
           <div className='text-center text-white'>
