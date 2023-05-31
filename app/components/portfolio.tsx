@@ -29,7 +29,7 @@ export default function Portfolio() {
             {/* card 2 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
+                <Image src="/images/portfolio/todoappchakraui.png" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
@@ -44,7 +44,7 @@ export default function Portfolio() {
             {/* card 3 starts  */}
             <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
               <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
+                <Image src="/images/portfolio/pricinguiwithchakraui.png" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
               </div>
               <div className='flex justify-between px-5 text-white'>
                 <button className='p-4 hover:scale-105 duration-200'>
