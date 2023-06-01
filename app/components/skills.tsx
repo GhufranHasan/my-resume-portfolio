@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import MySkill from './myskill';
 
 export const Skills = () => {
