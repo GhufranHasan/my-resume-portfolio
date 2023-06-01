@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from "next/image"
+import Image from "next/image";
+import MySkill from './myskill';
 
 export const Skills = () => {
   return (
@@ -10,70 +11,38 @@ export const Skills = () => {
                     <h1 className='text-4xl text-white mb-10'>Skills</h1>
                     <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-20'>
                         {/* skill 1 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/html-5.png" width={100} height={100} alt="html5" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>HTML</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/html-5.png' alterText='html5' text='HTML' />
                         {/* skill 1 ends */}
                         {/* skill 2 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/css-3.png" width={100} height={100} alt="css3" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>CSS</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/css-3.png' alterText='css3' text='CSS' />
                         {/* skill 2 ends */}
                         {/* skill 3 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/js.png" width={100} height={100} alt="javascript" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Javascript</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/js.png' alterText='javascript' text='Javascript' />
                         {/* skill 3 ends */}
                         {/* skill 4 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/Typescript.png" width={100} height={100} alt="typescript" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Typescript</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/Typescript.png' alterText='typescript' text='Typescript' />
+                        
                         {/* skill 4 ends */}
                         {/* skill 5 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/angular.png" width={100} height={100} alt="angular" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Angular 13+</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/angular.png' alterText='angular' text='Angular 13+' />
                         {/* skill 5 ends */}
                         {/* skill 6 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/nextjs.png" width={100} height={100} alt="nextjs" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Next 12+</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/nextjs.png' alterText='nextjs' text='Next 12+' />
                         {/* skill 6 ends */}
                         {/* skill 7 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/react.png" width={100} height={100} alt="react" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>React</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/react.png' alterText='react' text='React' />
                         {/* skill 7 ends */}
                         {/* skill 8 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/chakra-ui.png" width={100} height={100} alt="chakraui" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>ChakraUI</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/chakra-ui.png' alterText='chakraui' text='ChakraUI' />
                         {/* skill 8 ends */}
                         {/* skill 9 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/tailwind-css.png" width={100} height={100} alt="tailwindcss" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Tailwind</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/tailwind-css.png' alterText='tailwindcss' text='Tailwind' />
                         {/* skill 9 ends */}
                         {/* skill 10 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/postman.png" width={100} height={100} alt="postman" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>Postman</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/postman.png' alterText='postman' text='Postman' />
                         {/* skill 10 ends */}
                         {/* skill 11 starts */}
-                        <div className='p-5'>
-                            <Image src="/images/icons/postgresql.png" width={100} height={100} alt="postgresql" className='w-20 h-20 mx-auto object-contain hover:-transalate-y-2 hover:scale-110 duration-700' />
-                            <p className='text-white text-center mt-4'>PostgreSQL</p>
-                        </div>
+                        <MySkill iconUrl='/images/icons/postgresql.png' alterText='postgresql' text='PostgreSQL' />
                         {/* skill 11 ends */}
                     </div>
                 </div>

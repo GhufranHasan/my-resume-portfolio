@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/image";
+import PortfolioCard from './portfoliocard';
 
 export default function Portfolio() {
   return (
@@ -12,94 +12,22 @@ export default function Portfolio() {
           </div>
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-24 mx-auto w-full '>
             {/* card 1 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
             {/* card 1 ends  */}
             {/* card 2 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/todoappchakraui.png" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/todoappchakraui.png' demoUrl='' codeUrl='' />
             {/* card 2 ends  */}
             {/* card 3 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/pricinguiwithchakraui.png" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/pricinguiwithchakraui.png' demoUrl='' codeUrl='' />
             {/* card 3 ends  */}
             {/* card 4 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
             {/* card 4 ends  */}
             {/* card 5 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
             {/* card 5 ends  */}
             {/* card 6 starts  */}
-            <div className='shadow-md shadow-orange-900 h-60 hover:scale-105 duration-75 bg-black'>
-              <div>
-                <Image src="/images/portfolio/1.jpg" alt="" className='w-full h-40 rounded-t-md' width={800} height={800} />
-              </div>
-              <div className='flex justify-between px-5 text-white'>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Demo</a>
-                </button>
-                <button className='p-4 hover:scale-105 duration-200'>
-                  <a href="https://google.com" target='_blank'>Code</a>
-                </button>
-              </div>
-            </div>
+            <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
             {/* card 6 ends  */}
           </div>
       </div>
