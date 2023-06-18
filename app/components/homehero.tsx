@@ -31,7 +31,7 @@ export const HomeHero = () => {
       {/* left ends here */}
       {/* right starts here */}
       <div className="">
-        <Image src={'/my_pic.png'} alt="My solo image" width={800} height={800} className="md:w-full w-1/2 mx-auto" />
+        <Image src={'/my_pic.png'} alt="My solo image" width={1000} height={1000} className="md:w-full w-1/2 mx-auto" />
         {/* <Image
           src="my_pic.png"
           alt="My picture solo"

@@ -12,13 +12,13 @@ export default function Portfolio() {
           </div>
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-24 mx-auto w-full '>
             {/* card 1 starts  */}
-            <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
+            <PortfolioCard imageUrl='/images/portfolio/todoappchakraui.png' demoUrl='https://todoapp-ten-dun.vercel.app/' codeUrl='https://github.com/GhufranHasan/todoapp' />
             {/* card 1 ends  */}
             {/* card 2 starts  */}
-            <PortfolioCard imageUrl='/images/portfolio/todoappchakraui.png' demoUrl='' codeUrl='' />
+            <PortfolioCard imageUrl='/images/portfolio/pricinguiwithchakraui.png' demoUrl='https://github.com/GhufranHasan/pricinguichakra' codeUrl='https://pricinguichakra-ghufranhasan-piaic202492.vercel.app/' />
             {/* card 2 ends  */}
             {/* card 3 starts  */}
-            <PortfolioCard imageUrl='/images/portfolio/pricinguiwithchakraui.png' demoUrl='' codeUrl='' />
+            <PortfolioCard imageUrl='/images/portfolio/panaversechakraui.png' demoUrl='https://github.com/GhufranHasan/panaverse-web' codeUrl='' />
             {/* card 3 ends  */}
             {/* card 4 starts  */}
             <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
