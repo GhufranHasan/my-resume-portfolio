@@ -15,10 +15,10 @@ export default function Portfolio() {
             <PortfolioCard imageUrl='/images/portfolio/todoappchakraui.png' demoUrl='https://todoapp-ten-dun.vercel.app/' codeUrl='https://github.com/GhufranHasan/todoapp' />
             {/* card 1 ends  */}
             {/* card 2 starts  */}
-            <PortfolioCard imageUrl='/images/portfolio/pricinguiwithchakraui.png' demoUrl='https://github.com/GhufranHasan/pricinguichakra' codeUrl='https://pricinguichakra-ghufranhasan-piaic202492.vercel.app/' />
+            <PortfolioCard imageUrl='/images/portfolio/pricinguiwithchakraui.png' demoUrl='https://pricinguichakra-ghufranhasan-piaic202492.vercel.app/' codeUrl='https://github.com/GhufranHasan/pricinguichakra' />
             {/* card 2 ends  */}
             {/* card 3 starts  */}
-            <PortfolioCard imageUrl='/images/portfolio/panaversechakraui.png' demoUrl='https://github.com/GhufranHasan/panaverse-web' codeUrl='' />
+            <PortfolioCard imageUrl='/images/portfolio/panaversechakraui.png' demoUrl='' codeUrl='https://github.com/GhufranHasan/panaverse-web' />
             {/* card 3 ends  */}
             {/* card 4 starts  */}
             <PortfolioCard imageUrl='/images/portfolio/1.jpg' demoUrl='' codeUrl='' />
